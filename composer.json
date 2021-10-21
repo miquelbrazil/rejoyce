@@ -1,0 +1,24 @@
+{
+    "name": "miquelbrazil/rejoyce",
+    "description": "A PHP command line tool for publishing manuscripts written with Ulysses.app to various blogging platforms.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miquel Brazil",
+            "email": "miquel@brazilliance.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^5.3",
+        "josegonzalez/dotenv": "dev-master",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/finder": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
