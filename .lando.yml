@@ -1,0 +1,20 @@
+name: rejoyce
+services:
+  app:
+    type: php:custom
+    via: cli
+    overrides:
+      build: ./config/lando/php
+      image: miquelbrazil/php:7.4-cli
+    build:
+      - composer update
+tooling:
+  php:
+    service: app
+    cmd: php
+  console:
+    service: app
+    cmd: bin/cli
+  composer:
+    service: app
+    cmd: composer
