@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+require_once dirname(__DIR__) . '/config/paths.php';
+require_once VENDOR . 'autoload.php';
+
+use Symfony\Component\Console\Application;
+use App\Command\PublisherCommand;
+
+$app = new Application('ReJoyce Publisher CLI', 'v0.0.1');
+$app->add(new PublisherCommand());
+$app->run();
