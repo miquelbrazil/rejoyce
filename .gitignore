@@ -2,3 +2,7 @@
 *.env
 
 /vendor
+
+# Exclude User manuscripts
+/src/Manuscripts/*.md
+/src/Manuscripts/*.textbundle
