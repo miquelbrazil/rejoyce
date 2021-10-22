@@ -14,7 +14,11 @@
         "symfony/console": "^5.3",
         "josegonzalez/dotenv": "dev-master",
         "guzzlehttp/guzzle": "^7.0",
-        "symfony/finder": "^5.3"
+        "symfony/finder": "^5.3",
+        "league/commonmark": "^2.0",
+        "symfony/yaml": "^5.3",
+        "symfony/filesystem": "^5.3",
+        "ezyang/htmlpurifier": "^4.13"
     },
     "autoload": {
         "psr-4": {
