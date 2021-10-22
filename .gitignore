@@ -1,4 +1,6 @@
 *.plist
+.DS_STORE
+
 *.env
 
 /vendor
